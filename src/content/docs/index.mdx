@@ -1,36 +1,31 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to Van's documentation site
+description: Archived docs for self-learning path
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Archived docs for self-learning path
   image:
-    file: ../../assets/houston.webp
+    html: <img src="/img1.avif" class="bump-img">
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Start Here
+      link: intro/start-here
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: View my career path on LinkedIn
+      link: https://www.linkedin.com/in/van-liao/
       icon: external
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
-
-## Next steps
+import { Card, CardGrid } from '@astrojs/starlight/components'
+import AboutMe from '/src/components/about-me.astro'
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Documentation" icon="document">
+    Access My [Archived Docs](/intro/start-here)
+  </Card>
+  <Card title="Add new content" icon="rocket">
+    Contact Me [@van-liao](https://linkedin.com/in/van-liao)
+  </Card>
 </CardGrid>
+
+<AboutMe title="">Copyright © 2024-2025 Van Inc. All rights reserved.</AboutMe>

@@ -1,0 +1,38 @@
+---
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<article class="sl-flex sl-flex-col sl-items-center" aria-labelledby="about-me-header">
+    <small id="about-me">
+        {title}
+      <span class="sr-only">about me</span>
+    </small>
+    <slot />
+</article>
+
+<style>
+    article {
+        max-width: 40rem;
+        margin-inline: auto;
+        padding-block: 5rem;
+        margin-bottom: -8rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    article > :global(*) {
+        max-width: 50ch;
+        margin-top: 0 !important;
+    }
+    small {
+        color: var(--sl-color-fg-muted);
+    }
+    svg {
+        width: 15rem;
+    }
+</style>
