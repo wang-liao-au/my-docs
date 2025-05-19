@@ -1,10 +1,9 @@
 ---
 title: Start Here
 slug: /intro/start-here
-description: Get started with Van's docs
+description: Get started with Wang's docs
 ---
-
-## Welcome to Van's docs site
+## Welcome to Wang's docs
 
 This site is built up for my self-learning purposes.
 
@@ -12,4 +11,4 @@ This site is built up for my self-learning purposes.
 
 Contact me on LinkedIn:
 
-> [#My LinkedIn](https://linkedin.com/in/van-liao)
+> [#My LinkedIn](https://www.linkedin.com/in/wang-liao-au)

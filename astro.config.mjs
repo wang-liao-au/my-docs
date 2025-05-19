@@ -26,16 +26,16 @@ export default defineConfig({
   integrations: [
     starlight({
       favicon: 'favicon.png',
-      title: "Van's Docs",
+      title: "Wang's Docs",
       customCss: ['./src/styles/custom.css'],
       logo: {
         dark: '/src/assets/img1.avif',
         light: '/src/assets/img1.avif',
-        alt: "Van's docs",
+        alt: "Wang's docs",
       },
       social: {
-        github: 'https://github.com/van-liao',
-        linkedin: 'https://linkedin.com/in/van-liao',
+        github: 'https://github.com/wang-liao-au',
+        linkedin: 'https://www.linkedin.com/in/wang-liao-au/',
       },
       expressiveCode: {
         styleOverrides: {
